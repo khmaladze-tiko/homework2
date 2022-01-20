@@ -16,10 +16,12 @@ window.addEventListener("click", outsideClick);
 
 //მოდალის გახსნის ფუნქცია
 function openModal(){
+    console.log("start");
     modal.style.display = "block";
     let inputText = document.querySelector(".input").value;
     let pharagrap = document.querySelector(".pharagrap");
     pharagrap.innerHTML = inputText;
+    console.log("end");
 }
 
 
